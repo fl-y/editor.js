@@ -6,7 +6,7 @@ import {SanitizerConfig} from '../index';
 export interface Sanitizer {
   /**
    * Clean taint string with html and returns clean string
-   *
+   *x
    * @param {string} taintString
    * @param {SanitizerConfig} config - configuration for sanitizer
    */

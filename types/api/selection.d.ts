@@ -15,4 +15,10 @@ export interface Selection {
    * @param {HTMLElement} node - tag that should contain selection
    */
   expandToTag(node: HTMLElement): void;
+
+  /**
+   * Added to make selection ranges more accesssible
+   * @return {Range} range - returns current selected range
+   */
+  getCurrentRange(): Range;
 }
